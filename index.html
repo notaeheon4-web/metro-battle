@@ -1,1 +1,41 @@
 
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metro Battle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="game">
+
+<h1>🚇 Metro Battle</h1>
+<h2>지하철역 맞추기</h2>
+
+<div id="level">⭐ 난이도</div>
+
+<div class="box">
+<p id="hint">문제를 불러오는 중...</p>
+</div>
+
+<input id="answer" placeholder="역 이름 입력">
+
+<button onclick="checkAnswer()">확인</button>
+
+<p id="result"></p>
+
+<div class="score">
+점수 : <span id="score">0</span><br>
+콤보 : <span id="combo">0</span>
+</div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
